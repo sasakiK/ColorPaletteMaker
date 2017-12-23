@@ -1,0 +1,248 @@
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(http://fonts.googleapis.com/css?family=Rajdhani);
+
+/*---------------------nav---------------------*/
+
+nav {
+  font-family: 'Rajdhani', 'メイリオ';
+  background-color: #373B3B;
+}
+
+div .brand-logo {
+  font-family: 'Rajdhani', 'メイリオ';
+  font-size: 34px;
+}
+
+/*---------------------html body---------------------*/
+
+html, body {
+  font-family: 'Rajdhani', 'メイリオ';
+  height:100%;
+  width:100%;
+  background-color: #00D6C7;
+}
+
+div.container-fluid{
+  background-color: #00D6C7;
+  padding-right:0;
+  padding-left:0;
+}
+
+.col-sm-12{
+  padding:0;
+}
+
+  /*---------------------slider---------------------*/
+  
+div .flexslider{
+  background-color: #00D6C7;
+  border:none;
+  max-width: 600px;
+  margin:auto;
+}
+
+.uploadspan{
+  font-family: 'Rajdhani', cursive;
+  font-weight:bold;
+}
+
+ /*---------------------slider1 upload---------------------*/
+
+.upload_wrapper_pare {
+  font-family: 'Rajdhani', cursive;
+  background-color: #00D6C7;
+  text-align: center;
+  color: #b8dafd;
+  padding-right:0;
+  padding-left:0;
+  margin-bottom:0;
+  vertical-align: middle;
+  
+  width:80%;
+　margin: auto;
+  
+  height:300px;
+}
+
+.upload_wrapper{
+  height:100%;
+  position:relative;
+}
+
+.upload_by_input{
+  position:absolute;
+  transform: translateY(-50%);
+  background-color:#00D6C7;
+  border-radius:5px;
+  border:12px dashed white;
+  text-align:center;
+  top:50%;
+  width:100%;
+}
+
+.upload_by_input .image{
+  line-height:100px;
+  font-size:xx-large;
+  text-align:center;
+  color:white;
+}
+
+.upload_by_input:hover {
+  opacity:0.85;
+}
+
+.upload_by_input:hover .image{
+  opacity:0.85;
+}
+
+
+.file-path-wrapper{
+  font-family: 'Rajdhani', cursive;
+  color: white;  
+  position:absolute;
+  width:100%;
+  font-weight:bold;
+}
+
+/*アップロードファイルの下線*/      
+.file-path.validate.shiny-bound-input.valid{
+  border-bottom:solid 0px #ffffff;
+}
+
+ /*---------------------slider2 urlLink---------------------*/
+ 
+ 
+.uploadspan2{
+  font-family: 'Rajdhani', cursive;
+  color:white;
+  font-weight:bold;
+  font-size:26px;
+}
+
+#text_url_text_box{
+  font-family: 'Rajdhani', cursive;
+  font-weight: bold;  
+  color:#373B3B;
+}
+
+div .uploade_by_url{
+  position: relative;
+  transform: translateY(30%);
+  background-color: #00D6C7;
+  text-align:center;
+  width:100%;
+  height:100%;
+}
+
+.uploade_by_url .image{
+  position: absolute;
+  font-size:xx-large;
+  text-align:center;
+  color:#AAA;
+  width:100%;
+  height:100%;
+}
+
+ /*---------------------slider3 drop&drag---------------------*/
+
+.input-group {
+  position: relative;
+  background-color: #00D6C7;
+  width:80%;
+  border-radius:5px;
+  border:10px dashed white;
+  line-height:50px;
+  font-size:23px;
+  text-align:center;
+}
+
+.form-placeholder{
+  color:white;
+  font-weight:bold;
+}
+
+.form-control{
+  color:white;
+  font-weight:bold;
+}
+
+
+/*---------------------manualControls--------------*/
+
+div .toprow{
+  bottom: 0;
+  height:1%;
+  margin-bottom:0;
+  margin-top:4%;
+}
+
+#hoge a{
+  color:grey;
+}
+
+#hoge .flex-active{
+  color:white;
+  font-weight:bold;
+}
+
+#hoge a:hover {
+  opacity:0.8;
+  cursor : pointer; 
+  font-weight:bold;
+  text-decoration:none;
+}
+
+/*---------------------input comtents---------------------*/
+
+form  label {
+  color:white;
+	font-weight:bold;
+	font-size:xx-large;
+}
+
+form p{
+  text-align:center;
+}
+
+/*---------------------card contents----------------------*/
+
+/* left card*/
+
+.original_card{
+  background-color: white;
+  border-radius:5px;
+}
+
+.card-original .span{
+  font-weight:bold;
+}
+
+.card-original .img{
+  height:200px;
+}
+
+/* right card*/
+.card-palette .img{
+  height:200px;
+  
+}
+
+
+/*---------------------Footer---------------------*/
+a {
+  color:white; /*new colour*/
+  font-size:18px;
+}
+
+footer {
+  background-color:#373B3B;
+  text-align:center;
+  font-family: 'Rajdhani', cursive;
+  color:white;
+  height:25px;
+  width:100%;
+  vertical-align:bottom;
+  position: fixed;
+  bottom: 0;
+}
